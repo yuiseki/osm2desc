@@ -30,8 +30,14 @@ const main = () => __awaiter(void 0, void 0, void 0, function* () {
         console.info("\tosm2desc --help");
         process.exit(1);
     }
-    const output = yield (0, _1.osm2desc)(input);
-    console.log(output);
+    if (input.includes(",")) {
+        const output = yield (0, _1.osmIds2desc)(input.split(","));
+        console.log(output);
+    }
+    else {
+        const output = yield (0, _1.osm2desc)(input);
+        console.log(output);
+    }
 });
 (() => __awaiter(void 0, void 0, void 0, function* () {
     try {

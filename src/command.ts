@@ -1,6 +1,6 @@
 import yargs from "yargs/yargs";
 import { promises as fs } from "fs";
-import { osm2desc } from ".";
+import { osm2desc, osmIds2desc } from ".";
 
 const argv = yargs(process.argv.slice(2))
   .option("id", {
@@ -20,8 +20,13 @@ const main = async () => {
     console.info("\tosm2desc --help");
     process.exit(1);
   }
-  const output = await osm2desc(input);
-  console.log(output);
+  if (input.includes(",")) {
+    const output = await osmIds2desc(input.split(","));
+    console.log(output);
+  } else {
+    const output = await osm2desc(input);
+    console.log(output);
+  }
 };
 
 (async () => {

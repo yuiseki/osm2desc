@@ -33,6 +33,15 @@ const getArea = (feature: Feature) => {
   return area;
 };
 
+export const osmIds2desc = async (osmIds: string[]) => {
+  const results = [];
+  for await (const osmId of osmIds) {
+    const result = await osm2desc(osmId);
+    results.push(result);
+  }
+  return results.join("\n");
+};
+
 export const osm2desc = async (osmId: string) => {
   // build overpass query
   let osmIdQuery = `nwr(id:${osmId});`;
@@ -101,7 +110,7 @@ export const osm2desc = async (osmId: string) => {
       delete properties["name:en"];
     }
 
-    let descFromProperties = `${name} that `;
+    let descFromProperties = `${osmId}: ${name} that `;
     for await (const [key, value] of Object.entries(properties)) {
       const replacedKey = key.replace("addr:", "located ").replace(":", " ");
       const replacedValue = value.split(";").join(", ");

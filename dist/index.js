@@ -42,7 +42,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.osm2desc = void 0;
+exports.osm2desc = exports.osmIds2desc = void 0;
 const osmtogeojson_1 = __importDefault(require("osmtogeojson"));
 const turf = __importStar(require("@turf/turf"));
 const getCenter = (feature) => {
@@ -74,8 +74,35 @@ const getArea = (feature) => {
     }
     return area;
 };
+const osmIds2desc = (osmIds) => { var _a, osmIds_1, osmIds_1_1; return __awaiter(void 0, void 0, void 0, function* () {
+    var _b, e_1, _c, _d;
+    const results = [];
+    try {
+        for (_a = true, osmIds_1 = __asyncValues(osmIds); osmIds_1_1 = yield osmIds_1.next(), _b = osmIds_1_1.done, !_b;) {
+            _d = osmIds_1_1.value;
+            _a = false;
+            try {
+                const osmId = _d;
+                const result = yield (0, exports.osm2desc)(osmId);
+                results.push(result);
+            }
+            finally {
+                _a = true;
+            }
+        }
+    }
+    catch (e_1_1) { e_1 = { error: e_1_1 }; }
+    finally {
+        try {
+            if (!_a && !_b && (_c = osmIds_1.return)) yield _c.call(osmIds_1);
+        }
+        finally { if (e_1) throw e_1.error; }
+    }
+    return results.join("\n");
+}); };
+exports.osmIds2desc = osmIds2desc;
 const osm2desc = (osmId) => __awaiter(void 0, void 0, void 0, function* () {
-    var _a, e_1, _b, _c;
+    var _a, e_2, _b, _c;
     // build overpass query
     let osmIdQuery = `nwr(id:${osmId});`;
     if (osmId.startsWith("way/")) {
@@ -115,7 +142,6 @@ const osm2desc = (osmId) => __awaiter(void 0, void 0, void 0, function* () {
             ].join(", ");
         }
         // get area
-        // TODO: generate description about area
         const area = getArea(feature);
         // refine properties
         const properties = feature.properties;
@@ -138,7 +164,7 @@ const osm2desc = (osmId) => __awaiter(void 0, void 0, void 0, function* () {
             name = properties["name:en"];
             delete properties["name:en"];
         }
-        let descFromProperties = `${name} that `;
+        let descFromProperties = `${osmId}: ${name} that `;
         try {
             for (var _d = true, _e = __asyncValues(Object.entries(properties)), _f; _f = yield _e.next(), _a = _f.done, !_a;) {
                 _c = _f.value;
@@ -154,12 +180,12 @@ const osm2desc = (osmId) => __awaiter(void 0, void 0, void 0, function* () {
                 }
             }
         }
-        catch (e_1_1) { e_1 = { error: e_1_1 }; }
+        catch (e_2_1) { e_2 = { error: e_2_1 }; }
         finally {
             try {
                 if (!_d && !_a && (_b = _e.return)) yield _b.call(_e);
             }
-            finally { if (e_1) throw e_1.error; }
+            finally { if (e_2) throw e_2.error; }
         }
         descFromProperties = descFromProperties.slice(0, descFromProperties.length - 2);
         // add area info
