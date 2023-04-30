@@ -123,14 +123,16 @@ const osm2desc = (osmId) => __awaiter(void 0, void 0, void 0, function* () {
             throw Error("Properties is null!");
         }
         delete properties.id;
-        let descFromProperties = "A place that ";
+        const name = properties.name;
+        delete properties.name;
+        let descFromProperties = `${name} that `;
         try {
             for (var _d = true, _e = __asyncValues(Object.entries(properties)), _f; _f = yield _e.next(), _a = _f.done, !_a;) {
                 _c = _f.value;
                 _d = false;
                 try {
                     const [key, value] = _c;
-                    const replacedKey = key.replace("addr:", "").replace(":", " ");
+                    const replacedKey = key.replace("addr:", "located ").replace(":", " ");
                     const replacedValue = value.split(";").join(", ");
                     descFromProperties += `${replacedKey} is ${replacedValue}, `;
                 }

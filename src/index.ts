@@ -85,9 +85,11 @@ export const osm2desc = async (osmId: string) => {
       throw Error("Properties is null!");
     }
     delete properties.id;
-    let descFromProperties = "A place that ";
+    const name = properties.name;
+    delete properties.name;
+    let descFromProperties = `${name} that `;
     for await (const [key, value] of Object.entries(properties)) {
-      const replacedKey = key.replace("addr:", "").replace(":", " ");
+      const replacedKey = key.replace("addr:", "located ").replace(":", " ");
       const replacedValue = value.split(";").join(", ");
       descFromProperties += `${replacedKey} is ${replacedValue}, `;
     }

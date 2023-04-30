@@ -2,15 +2,15 @@
 
 ## Usage
 
+Command:
+
 ```bash
 osm2desc way/1004357847
 ```
 
-The command above output following line:
+Output:
 
-```
-A place that city is Juba, street is Unity Avenue, amenity is hospital, emergency is yes, healthcare is hospital, healthcare speciality is general, paediatrics, intensive, dentistry, gynaecology, name is Juba Medical Compex, operator is Juba Medical Compex, operator type is private.
-```
+> Juba Medical Compex that located city is Juba, located street is Unity Avenue, amenity is hospital, emergency is yes, healthcare is hospital, healthcare speciality is general, paediatrics, intensive, dentistry, gynaecology, operator is Juba Medical Compex, operator type is private.
 
 ## Development
 
