@@ -84,9 +84,24 @@ export const osm2desc = async (osmId: string) => {
     if (properties === null) {
       throw Error("Properties is null!");
     }
+    // delete unnecessary properties
     delete properties.id;
-    const name = properties.name;
+    delete properties.note;
+    delete properties["note:ja"];
+    delete properties.source;
+    delete properties.source_ref;
+    delete properties.wikidata;
+    delete properties.wikipedia;
+    delete properties["wikipedia:ja"];
+
+    // determine name
+    let name = properties.name;
     delete properties.name;
+    if ("name:en" in properties) {
+      name = properties["name:en"];
+      delete properties["name:en"];
+    }
+
     let descFromProperties = `${name} that `;
     for await (const [key, value] of Object.entries(properties)) {
       const replacedKey = key.replace("addr:", "located ").replace(":", " ");
@@ -97,7 +112,13 @@ export const osm2desc = async (osmId: string) => {
       0,
       descFromProperties.length - 2
     );
-    descFromProperties += ".";
+
+    // add area info
+    if (area) {
+      descFromProperties += `, area is ${area.toFixed(2)} square metres.`;
+    } else {
+      descFromProperties += ".";
+    }
 
     return `${descFromProperties}`;
   } else {
