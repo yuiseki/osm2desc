@@ -1,5 +1,5 @@
 {
-  "name": "osm2desc",
+  "name": "@yuiseki/osm2desc",
   "version": "0.0.1",
   "description": "Generate a text description from a node, a way or a relation on the OpenStreetMap",
   "main": "dist/index.js",
