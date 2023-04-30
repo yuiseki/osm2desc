@@ -76,7 +76,6 @@ export const osm2desc = async (osmId: string) => {
     }
 
     // get area
-    // TODO: generate description about area
     const area = getArea(feature);
 
     // refine properties
