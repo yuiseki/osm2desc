@@ -1,0 +1,4 @@
+way/99156121: Sensoji Hospital that amenity is hospital, building is hospital, building levels is 4, healthcare is hospital, area is 1577.59 square metres.
+way/175058726: 全仁会上野病院 that located block_number is 23, located neighbourhood is 3丁目, located quarter is 東上野, amenity is hospital, building is hospital, building levels is 5, healthcare is hospital, area is 345.32 square metres.
+way/230478092: Taito Hospital that amenity is hospital, building is hospital, area is 2380.02 square metres.
+way/871794846: ライフ・エクステンション研究所付属永寿総合病院 that amenity is hospital, healthcare is hospital, area is 3864.27 square metres.

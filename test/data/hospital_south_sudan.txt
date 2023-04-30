@@ -1,0 +1,109 @@
+way/192387557: UNMISS Level 2 Hospital that amenity is hospital, building is yes, operator is UNMISS, operator type is intergovernmental_organization, area is 1894.25 square metres.
+way/218239681: Aweil Civil Hospital that located city is Aweil, amenity is hospital, emergency is yes, healthcare is hospital, area is 30137.04 square metres.
+way/253912614: Warap State Hospital that located city is Kuajok, located street is Wau-Gogrial Road, amenity is hospital, emergency is yes, healthcare is hospital, area is 121127.73 square metres.
+way/255525260: Bentiu State Hospital that located city is Bentiu, amenity is hospital, emergency is yes, healthcare is hospital, area is 43536.87 square metres.
+way/255667795: Médecins Sans Frontières that located city is Bentiu, amenity is hospital, healthcare is hospital, area is 11613.08 square metres.
+way/257030254: Mayom Primary Health Care Centre that amenity is hospital, healthcare is hospital, area is 10961.22 square metres.
+way/260109222: undefined that amenity is hospital, area is 150.85 square metres.
+way/299872472: Care Plus Clinic that amenity is hospital, emergency is yes, healthcare is hospital, area is 743.46 square metres.
+way/300634014: Koch Primary Healthcare Centre that amenity is hospital, healthcare is hospital, operator is Ministry of Health, area is 2624.37 square metres.
+way/307435433: EPC Clinic Yei that amenity is hospital, barrier is fence, emergency is yes, healthcare is hospital, area is 3084.44 square metres.
+way/307436835: His House of Hope that located city is Yei, amenity is hospital, emergency is yes, operator is Harvesters Reaching the Nations, website is http://hrtn.org/projects/#his, area is 8202.68 square metres.
+way/319377840: Lakes State Hospital that located city is Rumbek, amenity is hospital, emergency is yes, healthcare is hospital, area is 65527.12 square metres.
+way/320444443: Juba State Hospital that located city is Juba, located street is University Road, amenity is hospital, emergency is yes, healthcare is hospital, area is 23947.67 square metres.
+way/320463522: Military Hospital that amenity is hospital, area is 67483.49 square metres.
+way/320467303: Juba Teaching Hospital that located city is Juba, located street is Unity Avenue, amenity is hospital, emergency is yes, healthcare speciality is paediatrics, general, dentistry, intensive, vaccination, gynaecology, area is 71159.47 square metres.
+way/331341249: Agok Hospital that amenity is hospital, area is 27848.41 square metres.
+way/347332603: Yei Civil Hospital that amenity is hospital, area is 70906.40 square metres.
+way/418731625: Comboni Hospital that amenity is hospital, area is 11797.10 square metres.
+way/432939108: MSF- Holland Hosp. Primary Health Care Centre that amenity is hospital, emergency is yes, healthcare is hospital, operator is MSF-OCA, area is 21154.44 square metres.
+way/432939113: Nassir County Hospital that amenity is hospital, emergency is yes, healthcare is hospital, area is 2622.50 square metres.
+way/455697991: Chiness Hospital that amenity is hospital, healthcare is hospital, area is 251.56 square metres.
+way/457128760: Nyakuron Health Center that amenity is hospital, area is 702.84 square metres.
+way/584929739: Lotimor clinic that amenity is hospital, healthcare is hospital, area is 3150.86 square metres.
+way/615481621: Yambio General Hospital that located city is Yambio, located street is State Avenue, amenity is hospital, emergency is yes, healthcare is hospital, area is 77442.99 square metres.
+way/785868006: Goli Hospital that amenity is hospital, emergency is yes, healthcare is hospital, area is 13134.03 square metres.
+way/785870491: UNMISS Level 1 Hospital that amenity is hospital, healthcare is hospital, operator is UNMISS, operator type is intergovernmental_organization, area is 975.66 square metres.
+way/785905738: Small Clinic that amenity is hospital, building is hospital, healthcare is hospital, name ar is عيادة صغيرة, name es is Pequeña Clínica, area is 202.92 square metres.
+way/785906906: Yangiri Hospital that amenity is hospital, emergency is yes, healthcare is hospital, area is 2466.16 square metres.
+way/785907725: undefined that amenity is hospital, health_facility type is field_hospital, healthcare is hospital, operator type is ngo, area is 16986.64 square metres.
+way/785909392: Lui Hospital that amenity is hospital, healthcare is hospital, area is 1908.93 square metres.
+way/785910312: Medicines Sans Frontieres Lankien that amenity is hospital, healthcare is hospital, operator is MSF Holland, area is 1356.38 square metres.
+way/785910576: Ganyliel that amenity is hospital, healthcare is hospital, area is 8500.09 square metres.
+way/785915937: MSF hospital that amenity is hospital, healthcare is hospital, area is 18781.49 square metres.
+way/786443684: undefined that amenity is hospital, healthcare is hospital, area is 148.53 square metres.
+way/786444050: Payawa PHCU that amenity is hospital, emergency is no, healthcare is hospital, area is 358.76 square metres.
+way/786450006: Renk Military Hospital that amenity is hospital, healthcare is hospital, operator is SPLA, area is 3879.42 square metres.
+way/786450489: Hai jebel primary health care unit that amenity is hospital, healthcare is hospital, area is 2048.70 square metres.
+way/786452912: GUDELE SURGICAL CLINIC that amenity is hospital, healthcare is hospital, area is 493.73 square metres.
+way/786469673: MSF Lekuangole PHCC that amenity is hospital, healthcare is hospital, area is 3810.75 square metres.
+way/786470511: Al Sabbah Children Hospital that amenity is hospital, healthcare is hospital, healthcare speciality is vaccination, paediatrics, area is 18320.26 square metres.
+way/786471216: AMI (Old Location) that located city is Juba, located country is SS, located street is Indian Embassy Road, amenity is hospital, disused is yes, email is reception.ss@ami.health, emergency is yes, healthcare is hospital, old_name is Aspen Medical International Clinic, phone is +211 916 097 531, website is https://ami.health/global/south-sudan/, area is 1217.08 square metres.
+way/786546062: DMI Nursery that amenity is hospital, healthcare is hospital, area is 3070.02 square metres.
+way/806114139: Dr. John Garang Diagnostic and Medical Center & Infectious Diseases Unit that located city is Juba, located street is Addis Ababa Road, amenity is hospital, healthcare is hospital, area is 15300.85 square metres.
+way/889382823: Cuhudum Hospital that amenity is hospital, emergency is yes, healthcare is hospital, healthcare speciality is general, area is 23284.50 square metres.
+way/899293945: undefined that amenity is hospital, healthcare is hospital, area is 2770.78 square metres.
+way/958870652: St. Teresa Mission Hospital that amenity is hospital, healthcare is hospital, area is 19376.54 square metres.
+way/968110598: Grace Medical center that amenity is hospital, healthcare is hospital, area is 599.60 square metres.
+way/970992222: Maridi General Hospital that located city is Maridi, located street is Maridi-Yambio Highway, amenity is hospital, emergency is yes, healthcare is hospital, area is 40643.35 square metres.
+way/972299094: Raja County Hospital that located city is Raja, located street is Wau-Raja Road, amenity is hospital, emergency is yes, healthcare is hospital, name es is Hospital del Condado de Raja, area is 56818.68 square metres.
+way/972307272: Torit Civil Hospital that located city is Torit, located street is Juba-Torit-Nadapal Highway, amenity is hospital, healthcare is hospital, area is 89197.08 square metres.
+way/972945966: Bor Hospital that located city is Bor, amenity is hospital, healthcare is hospital, area is 39605.95 square metres.
+way/973555126: Kewnger Hospital that located city is Pariang, amenity is hospital, emergency is yes, healthcare is hospital, area is 9261.08 square metres.
+way/973775308: Yirol Hospital that located city is Yirol, amenity is hospital, healthcare is hospital, area is 72640.47 square metres.
+way/973864968: Kal Ruel Primary Health Care Unit that amenity is hospital, healthcare is hospital, area is 26107.96 square metres.
+way/973864972: Tonj County Hospital that located city is Tonj, amenity is hospital, healthcare is hospital, area is 49348.87 square metres.
+way/973866025: Don Bosco Primary Health Care Centre that located city is Tonj, amenity is hospital, emergency is yes, healthcare is hospital, area is 32444.14 square metres.
+way/974163317: Tambura County Hospital that amenity is hospital, emergency is yes, healthcare is hospital, area is 29580.66 square metres.
+way/974381373: Kapoeta South County Hospital that located city is Kapoeta, amenity is hospital, healthcare is hospital, area is 35432.21 square metres.
+way/974411323: Hope for South Sudan that located city is Kapoeta, located street is Hospital Road, amenity is hospital, emergency is yes, healthcare is hospital, area is 43381.48 square metres.
+way/974436205: Akobo County Hospital that located city is Akobo, amenity is hospital, emergency is yes, healthcare is hospital, area is 27585.54 square metres.
+way/974466848: Kodok Hospital that located city is Kodok, amenity is hospital, healthcare is hospital, area is 5190.64 square metres.
+way/978473719: Nzara General Hospital that located city is Nzara, located street is Basukangbi Road, amenity is hospital, healthcare is hospital, area is 76958.37 square metres.
+way/979671007: PHC Terekeka that located city is Terekeka, amenity is hospital, healthcare is hospital, area is 20469.89 square metres.
+way/981322243: Narus Dot Primary Health Care Centre that amenity is hospital, healthcare is hospital, area is 10682.05 square metres.
+way/981330261: Riwoto Primary Health Care Centre that amenity is hospital, healthcare is hospital, area is 7049.73 square metres.
+way/1004357847: Juba Medical Compex that located city is Juba, located street is Unity Avenue, amenity is hospital, emergency is yes, healthcare is hospital, healthcare speciality is general, paediatrics, intensive, dentistry, gynaecology, operator is Juba Medical Compex, operator type is private, area is 6511.66 square metres.
+way/1004708569: Awoda Primary Health Care Centre that amenity is hospital, healthcare is hospital, area is 1950.64 square metres.
+way/1009836551: Al Amin Hospital that amenity is hospital, area is 8920.36 square metres.
+way/1010340756: OPD Malakal Teaching Hospital that located city is Malakal, located street is Salakan Avenue, amenity is hospital, emergency is yes, healthcare is hospital, area is 10449.23 square metres.
+way/1010340757: Malakal Children Hospital that located city is Malakal, located street is Andayat Avenue, amenity is hospital, emergency is yes, healthcare is hospital, area is 9423.31 square metres.
+way/1012209577: Freedom International Hospital that amenity is hospital, healthcare is hospital, area is 15581.82 square metres.
+way/1012209579: Ussratuna Hospital that amenity is hospital, healthcare is hospital, area is 29145.25 square metres.
+way/1012539310: Kapoeta Mission Hospital that located street is Kapoeta -  Ngauro, amenity is hospital, emergency is yes, healthcare is hospital, area is 43676.93 square metres.
+way/1012539603: Katiko Referral Hospital that amenity is hospital, healthcare is hospital, area is 17131.61 square metres.
+way/1012568336: Kuajok Primary Health Care Centre that amenity is hospital, healthcare is hospital, area is 20565.99 square metres.
+way/1012568337: Primary Health Care Centre that amenity is hospital, healthcare is hospital, area is 22951.66 square metres.
+way/1012569186: Gurei Primary Health Care Unit that amenity is hospital, healthcare is hospital, area is 416.66 square metres.
+way/1012569187: Juba Gureyi Primary Health Care Unit that amenity is hospital, healthcare is hospital, area is 3819.54 square metres.
+way/1012570715: Gudele Primary Health Care Unit that amenity is hospital, healthcare is hospital, area is 46342.49 square metres.
+way/1012570895: St. Kizito Primary Health Care Centre that amenity is hospital, healthcare is hospital, area is 2548.77 square metres.
+way/1012571323: Malakia Primary Health Care Unit that amenity is hospital, healthcare is hospital, area is 3111.47 square metres.
+way/1012571462: Kator Primary Health Care Centre that amenity is hospital, healthcare is hospital, area is 4360.21 square metres.
+way/1012572156: Gwadiang West Primary Health Care Unit that amenity is hospital, healthcare is hospital, area is 1726.38 square metres.
+way/1012572333: Lologo Primary Health Care Centre that amenity is hospital, healthcare is hospital, area is 5732.00 square metres.
+way/1012572590: Kator Sacret Heart Primary Health Care Unit that amenity is hospital, healthcare is hospital, area is 2140.28 square metres.
+way/1012573612: Aroyo Primary Health Care Centre that amenity is hospital, healthcare is hospital, area is 3727.96 square metres.
+way/1012574027: Akuem County Hospital that amenity is hospital, healthcare is hospital, area is 35004.42 square metres.
+way/1014154392: Soneto Clinic that located city is Juba, amenity is hospital, healthcare is hospital, area is 102056.21 square metres.
+way/1018633665: Nyamlel New Life Ministry Primary Health Care Unit that amenity is hospital, healthcare is hospital, area is 151186.25 square metres.
+way/1018805121: Renk County Hospital that located city is Renk, amenity is hospital, healthcare is hospital, area is 79002.06 square metres.
+way/1018892224: Longuchuk County Hospital that located city is Mathiang, amenity is hospital, emergency is yes, healthcare is hospital, area is 8760.62 square metres.
+way/1018899995: Bounj Primary Health Care Centre that amenity is hospital, emergency is yes, healthcare is hospital, area is 32301.14 square metres.
+way/1018899996: Bomy Primary Health Care Unit that amenity is hospital, healthcare is hospital, area is 1781.23 square metres.
+way/1018902225: Malakal Teaching Hospital that located city is Malakal, located street is Shiluk Street, amenity is hospital, emergency is yes, healthcare is hospital, area is 41280.54 square metres.
+way/1018904101: ECS Primary Health Care Centre that located city is Malakal, amenity is hospital, healthcare is hospital, area is 20052.91 square metres.
+way/1019060745: SSC Primary Health Care Centre that located city is Malakal, amenity is hospital, healthcare is hospital, area is 6032.01 square metres.
+way/1019083004: N.H.I.F Primary Health Care Centre that located city is Wadakona, amenity is hospital, healthcare is hospital, area is 2865.45 square metres.
+way/1019083005: Wadakon Primary Health Care Centre that located city is Wadakona, amenity is hospital, emergency is yes, healthcare is hospital, area is 19931.03 square metres.
+way/1019201452: Melut County Hospital that amenity is hospital, healthcare is hospital, area is 10284.69 square metres.
+way/1019201456: Melut Primary Health Care Centre that amenity is hospital, healthcare is hospital, area is 4514.89 square metres.
+way/1019247070: Tonga Primary Health Care Centre that amenity is hospital, healthcare is hospital, area is 56989.92 square metres.
+way/1019500661: Guit Primary Health Care Centre that located city is Guit, amenity is hospital, healthcare is hospital, area is 4179.21 square metres.
+way/1019512715: Koch Primary Health Care Centre that located city is Koch, amenity is hospital, emergency is yes, healthcare is hospital, area is 10041.59 square metres.
+way/1019993688: Chuk Primary Health Care Unit that located city is Panyijar, amenity is hospital, emergency is yes, healthcare is hospital, area is 8573.71 square metres.
+way/1020011566: Nile Gangah B-V Primary Health Care Centre that amenity is hospital, healthcare is hospital, area is 1738.05 square metres.
+way/1020011567: Rubkona Primary Health Care Unit that amenity is hospital, healthcare is hospital, area is 4952.35 square metres.
+way/1020028079: Nyinakok Primary Health Care Unit that amenity is hospital, healthcare is hospital, area is 6045.22 square metres.
+way/1020045656: Baggari Primary Health Care Unit that located city is Bagari, amenity is hospital, emergency is yes, healthcare is hospital, area is 3396.12 square metres.
+way/1052641905: undefined that amenity is hospital, healthcare is hospital, area is 51.42 square metres.
